@@ -3,7 +3,7 @@
 use std::collections::HashSet;
 
 pub fn part1() {
-    let input = include_str!("day01.txt");
+    let input = include_str!("data/d01p1.txt");
     let x: i32 = input.lines()
         .map(|i: &str| i.parse::<i32>().unwrap())
         .sum();
@@ -12,7 +12,7 @@ pub fn part1() {
 }
 
 pub fn part2() {
-    let input = include_str!("day01.txt");
+    let input = include_str!("data/d01p1.txt");
     let endless = input.lines()
         .map(|i: &str| i.parse::<i32>().unwrap())
         .cycle();
