@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Advent of Code, Day {{day}}"""
+"""Advent of Code, Day 04"""
 
 from collections import defaultdict
 from datetime import datetime
